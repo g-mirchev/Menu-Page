@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Products</title>
+        <link rel="stylesheet" href="./main.css?v=1">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="title">Menu</div>
+            <div id="sorters">
+                <div id="filter" class="vl">Filter by allergens<br/></div>
+                <div id="sort">Sort by<br/>
+                    <div class="sortoption">
+                        <input type="radio" id="pricelowtohigh" name ="sortby" value="priceascending">
+                        <label for="pricelowtohigh">Price low to high</label><br/>
+                    </div>
+                    <div class="sortoption">
+                        <input type="radio" id="pricehightolow" name ="sortby" value="pricedescending">
+                        <label for="pricehightolow">Price high to low</label><br/>
+                    </div>
+                    <div class="sortoption">
+                        <input type="radio" id="byname" name ="sortby" value="name">
+                        <label for="name">Name</label><br/>
+                    </div>
+                    <div class="sortoption">
+                        <input type="radio" id="byorder" name ="sortby" value="order">
+                        <label for="byorder">Order</label><br/>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div id="products">
+            <div class="card">
+                <div class="imgcont"></div>
+                <div class="infodiv">
+                    <div class="name"></div>
+                    <div class="price"></div>
+                </div>
+            </div>
+        </div>
+        
+    <script src="./main.js?v=1" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </body>
+</html>

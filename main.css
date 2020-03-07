@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+}
+.img {
+    width: 320px;
+    height: 240px;
+}
+.card {
+    max-width: 30%;
+    max-height: 30%;
+    display: inline-block;
+}
+.imgcont {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.imgcont:hover > .overlay {
+    width: 320px;
+    height: 240px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 1;
+    display: block;
+}
+.infodiv {
+    font-size: x-large;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.spaced {
+    margin: 15px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.vl {
+    border-right: 6px solid lightgreen;
+    padding-right: 10px;
+}
+
+.sortoption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hidden {
+    display: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#products{
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#sorters {
+    display: flex;
+    font-size: x-large;
+    padding-right: 50px;
+
+}
+#sort {
+    margin-left: 10px;
+}
