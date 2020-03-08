@@ -2,35 +2,46 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Products</title>
+        <title>Menu</title>
         <link rel="stylesheet" href="./main.css?v=1">
     </head>
 
     <body>
         <div class="header">
-            <div class="title">Menu</div>
-            <div id="sorters">
-                <div id="filter" class="vl">Filter by allergens<br/></div>
-                <div id="sort">Sort by<br/>
-                    <div class="sortoption">
-                        <input type="radio" id="pricelowtohigh" name ="sortby" value="priceascending">
-                        <label for="pricelowtohigh">Price low to high</label><br/>
-                    </div>
-                    <div class="sortoption">
-                        <input type="radio" id="pricehightolow" name ="sortby" value="pricedescending">
-                        <label for="pricehightolow">Price high to low</label><br/>
-                    </div>
-                    <div class="sortoption">
-                        <input type="radio" id="byname" name ="sortby" value="name">
-                        <label for="name">Name</label><br/>
-                    </div>
-                    <div class="sortoption">
-                        <input type="radio" id="byorder" name ="sortby" value="order">
-                        <label for="byorder">Order</label><br/>
+            <div class="gridone">
+                <div class="title">Menu</div> 
+            </div>
+            <div class="sorterstitle">
+                <div class="filter vl">Filter by allergens</div>
+                <div class="sort">Sort by</div>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="gridfive">
+                <div class="sorters">
+                    <div id="filter" class="vl"><br/></div>
+                    <div id="sort"><br/>
+                        <div class="sortoption">
+                            <input type="radio" id="pricelowtohigh" name ="sortby" value="priceascending">
+                            <label for="pricelowtohigh">Price low to high</label><br/>
+                        </div>
+                        <div class="sortoption">
+                            <input type="radio" id="pricehightolow" name ="sortby" value="pricedescending">
+                            <label for="pricehightolow">Price high to low</label><br/>
+                        </div>
+                        <div class="sortoption">
+                            <input type="radio" id="byname" name ="sortby" value="name">
+                            <label for="name">Name</label><br/>
+                        </div>
+                        <div class="sortoption">
+                            <input type="radio" id="byorder" name ="sortby" value="order">
+                            <label for="byorder">Order</label><br/>
+                        </div>
                     </div>
                 </div>
             </div>
-    </div>
+            <div></div>
+        </div>
         <div id="products">
             <div class="card">
                 <div class="imgcont"></div>
