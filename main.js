@@ -55,7 +55,7 @@ function makeFilters(){
         var checkbox = $('<input type="checkbox">');
         var label = $('<label></label><br/>');
         var div = $('<div />');
-        checkbox.attr("id", allergens[allergen].name);
+        checkbox.attr("id", allergens[allergen].id);
         checkbox.attr("name", 'filterby');
         checkbox.attr("value", allergens[allergen].id);
         label.attr("for", allergens[allergen].id);

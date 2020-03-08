@@ -3,16 +3,23 @@ body {
     background-color: #FFF0DE;
 }
 label {
-    padding-left: 25%;
+    padding-left: 5%;
 }
 .header {
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 37% 30% 33%;
     background-color: #FFE5C4;
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: top 0.3s;
+}
+.header:hover > .botbar{
+    display: block;
+}
+.gridfive {
+    display: none;
 }
 .title {
     font-size: 48px;
@@ -25,9 +32,12 @@ label {
 }
 .sortoption {
     text-align: left;
-    font-size: x-large;
+    font-size: large;
     padding-bottom: 6px;
-
+    padding-left: 25px;
+}
+.sortoption:hover {
+    background-color: #C4EAFF;
 }
 .sorterstitle {
     display: flex;
@@ -38,7 +48,6 @@ label {
 .sorters {
     display: flex;
     justify-content: center;
-    font-size: x-large;
     margin-bottom: 10px;
 
 }
@@ -51,17 +60,15 @@ label {
     width: 50%;
     padding-top: 20px;
     text-align: center;
-    margin-left: 30px;
 }
 #filter{
     width: 50%;
 }
 #sort {
     width: 50%;
-    margin-left: 30px;
 }
 #products{
-    padding-top: 240px;
+    padding-top: 86px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -69,6 +76,7 @@ label {
     max-width: 30%;
     max-height: 30%;
     display: inline-block;
+    padding-bottom: 20px;
 }
 .imgcont {
     width: 100%;
